@@ -3,14 +3,17 @@ ul {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style:none;
 }
-input, button{
+input,
+button {
   outline:none;
 }
 /* Basic Style */
-.page {background-color: #f8f8f8;
+.page {
+  background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
@@ -27,7 +30,8 @@ input, button{
   font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
-  .header { text-align: center;
+  .header {
+    text-align: center;
   }
 }
 .main {
@@ -35,7 +39,8 @@ input, button{
   width: 500px;
   margin: 0 auto 0;
 }
-.task-item-input, .task-item-label {
+.task-item-input,
+.task-item-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -96,7 +101,6 @@ input, button{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
